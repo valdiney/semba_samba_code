@@ -2,7 +2,7 @@ semba_samba_code
 ================
 
 Console JavaScript
-
+<a href="http://valdiney.net23.net/semba/" target="_blank">Visualizar ferramenta</a>
 <h1>Definição:</h1>
 
 <p>O semba-samba-code trata-se de uma ferramenta que disponibiliza uma interface para que o usuário digite expressões em linguagem javascipt! A interpretação do Script é realizado pelo próprio navegador.</p>
