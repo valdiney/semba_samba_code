@@ -34,19 +34,4 @@ $envio = mail($destino, $assunto, $mensagem_html, $headers);
   	header('Location: index.php');
   }
 
-
-
-
- 
-
-    /* gravar dados em arquivo
-     $file = fopen('code/semba_fonte.js', 'w');
-     fwrite($file, $mensagem);
-     fclose($file);
-
-   */
-
-
-
-
 ?>
