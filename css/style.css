@@ -1,0 +1,385 @@
+body{
+   background-color:#5d6768;
+   font-family:candara;
+   margin:0px;
+}
+header{
+   width:auto;
+   height:50px;
+   background-color:white;
+   padding:10px;
+   background-image:url("img_config/logo.png");
+   background-repeat:no-repeat;
+   border-bottom:1px solid black;
+}
+
+#ferramentas{
+   width:auto;
+   height:50px;
+   margin:auto;
+   padding:10px;
+   border-bottom:1px solid black;
+   background-color:#008fd9;
+   position:relative;
+   background-image:url('img_config/table_fundo.png');
+   background-repeat:repeat-x;
+}
+
+#textarea {
+   width:95%;
+   height:500px;
+   padding:10px; 
+   outline:none;
+   letter-spacing:5px;
+   background-repeat:repeat-x;
+   margin:auto!important;
+   background:#f5f4f4;
+   font-weight:bold;
+   font-family:candara;
+   font-size:16px;
+   box-shadow:gray 1px 1px 3px inset;
+   border:0px!important;
+   font-family:Microsoft YaHei;
+   background-image: linear-gradient(to right, white 30%, #5d6768 100%);
+   font-family:Courier New;
+
+   opacity:0.70;
+}
+
+
+
+.control{/*butons*/
+  padding:10px;
+  width:100px;
+  height:40px;
+  background-color:#006600;
+  color:white;
+  border:1px solid black;
+  border-radius:3px;
+  font-weight:bold;
+  cursor:pointer;
+  background-image:url('img_config/button_fundo.png');
+  margin-right:20px;
+}
+.control:active{
+  border:1px solid red;
+  box-shadow:white 5px 5px 15px inset;
+}
+.control:hover{
+  opacity:0.70;
+  box-shadow:white 1px 1px 1px;
+}
+#limpar_textarea{
+  opacity:0.70;
+  background-image:url('img_config/limpa.png');
+}
+
+#botao_apresenta_aba_resultado{
+  opacity:0.70;
+  background-image:url('img_config/fundo_estilo.png');
+}
+
+
+#deletar_dadosStorage{
+  opacity:0.40;
+  background-image:url('img_config/deletar_storage.png');
+   -webkit-transition-duration:0.5s;
+}
+#deletar_dadosStorage:hover {
+  opacity:0.70;
+  -webkit-transition-duration:0.5s;
+}
+/*//////////////////////////////////////*/
+
+
+#resultado_oculto{
+  display:none;
+}
+#aba_resultado{
+  display:block;
+  margin:auto;
+  background-color:#222a31;
+  color:white;
+  font-size:20px;
+  width:auto;
+  padding:10px;
+  border:1px solid black;
+  background-repeat:repeat-x;
+  text-align:center;
+  text-align:left;
+  display:none;
+}
+
+red{
+	color:red;
+	
+}
+
+
+.font {
+  border:1px solid black;
+  border-radius:3px;
+  padding:3px;
+  background:white;
+  opacity:0.40;
+}
+.font:hover {
+  opacity:0.90;
+  cursor:pointer;
+  box-shadow:black 1px 1px 10px;
+}
+
+
+/*
+////////////////////////////////////////////////////
+// FERRAMENTAS
+// TAMANHO DA FONTE
+*/
+#mensagem_erro{
+display:block;
+padding:5px;
+margin:auto;
+background-color:#222a31;
+text-align:center;
+font-family:candara;
+color:white;
+font-size:17px;
+margin:auto;
+border-bottom:3px solid #a6b0b2;
+}
+span{
+color:#ff3300;
+}
+
+
+footer {
+  width:auto;
+  height:auto;
+  min-height:40px;
+  background:black;
+  padding:10px;
+}
+
+
+
+/*////////////////////////////////////////////
+// DIV ESTILO CONTEM AS OPÇÕES DE ESTILO DE TODA A PÁGINA
+*/
+#div_estilo{
+width:700px;
+height:300px;
+/*
+background-coolor:black;
+background: rgba(0, 0, 0, 0.9);
+*/
+border-bottom:3px solid #a6b0b2;
+border-right:3px solid #a6b0b2;
+padding:10px;
+position:absolute;
+display:none;
+box-shadow:black 10px 10px 20px;
+
+/*background-image:-moz-linear-gradient(#86a7b8,#426c82);*/
+background-color:#222a31!important;
+}
+#div_estilo table td{
+border:1px dotted silver;
+}
+label{
+color:#9ec9b1;
+font-family:verdana;
+}
+.label_estilo{/*span label*/
+color:#ff9900;
+opacity:0.60;
+}
+#div_estilo table td{
+background-color:#333333;
+}
+#div_estilo table input{
+width:100px;
+}
+
+
+
+
+
+#logo {
+   display:block;
+   float:left;
+   width:180px;
+   border-radius:10px;
+   margin-right:10px;
+   box-shadow:black 1px 1px 3px;
+   opacity:0.70;
+
+}
+#logo:hover {
+	 box-shadow:black 1px 1px 10px;
+}
+
+#menu {
+  display:block;
+  float:left;
+  width:30px;
+  opacity:.80;
+  border:1px solid black;
+  margin-right:5px;
+  margin-top:10px;
+}
+#menu:hover {
+  opacity:0.60;
+  border:1px solid blue;
+  cursor:pointer;
+}
+/*
+#menu_opcao {
+	width:300px;
+	height:auto;
+	min-height:150px;
+	padding:10px;
+	float:left;
+	position:absolute;
+	background:white;
+	margin-top:20px;
+	border:1px solid black;
+	border-radius:10px;
+	box-shadow:black 1px 1px 10px;
+	display:none;
+  margin-left:180px;
+  z-index:300!important;
+}
+*/
+#menu_opcao {
+  width:400px;
+  height:100%;
+  min-height:150px;
+  padding:0px;
+  padding-left:10px;
+  float:left;
+  position:absolute!important;
+  background:white;
+  margin-top:-3px;
+  border:1px solid black;
+  box-shadow:black 1px 1px 10px;
+  margin-left:-10px;
+  border-right:5px solid #69c5f7;
+  border-bottom:5px solid #69c5f7;
+  z-index:300!important;
+  display:none;
+}
+#menu_opcao h1 {
+  font-size:15px;
+  display:block;
+  padding:3px;
+  margin-left:10px;
+}
+
+
+#menu_opcao ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	margin-left:20px;
+}
+#menu_opcao li a {
+	display:block;
+	text-decoration:none;
+	padding:10px;
+	background:white;
+	color:#a21f31;
+	border-bottom:1px dotted silver;
+	font-weight:bold;
+}
+#menu_opcao li a:hover {
+	opacity:0.80;
+	color:white;
+  background: black;
+  background-image:-webkit-linear-gradient(#3b3b3b,#424141);
+  background-image:-moz-linear-gradient(#3b3b3b,#424141);
+  background-image:-o-linear-gradient(#3b3b3b,#424141);
+  text-shadow:black 1px 1px 1px;
+}
+#menu_opcao li a:before {
+	content:url(img_config/icon_menu.png);
+	margin-right:10px;
+}
+
+
+
+#blackBox {
+  width:100%;
+  height:100%;
+  background:black;
+  opacity:0.70;
+  position:absolute;
+  z-index:200;
+  display:none;
+}
+
+.impares {
+  background:;
+}
+
+
+section {
+  width:auto;
+  height:auto;
+  border:1px dotted silver;
+  padding:10px;
+  padding-bottom:30px;
+  background:#fafafa;
+}
+section a{
+  display:block;
+  padding:5px;
+  text-decoration:none;
+  color:#003366;
+  font-weight:bold;
+}
+section a:before {
+  content:url(img_config/icon_menu.png);
+  margin-right:10px;
+}
+
+section a:hover  {
+  color:black;
+}
+section p {
+  margin:0px;
+  font-size:11px;
+}
+section input, textarea {
+  padding:10px;
+  border:1px solid black;
+  border-radius:5px;
+  width:200px;
+  box-shadow:gray 1px 1px 2px inset;
+  outline:none;
+  color:#003366;
+}
+section label {
+  color:black;
+}
+section table {
+  display:none;
+}
+section textarea {
+  height:100px;
+}
+section button {
+  border:1px solid black;
+  padding:5px;
+  background:#cc3300;
+  border-radius:3px;
+  color:white;
+}
+section button:hover {
+  opacity:0.80;
+}
+section #replica_code {
+  background:gray;
+  color:black;
+}
+
+
